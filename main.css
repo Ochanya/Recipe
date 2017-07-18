@@ -18,6 +18,13 @@ body{
   height: 250px;
 
 }
+.recipe-box{
+  width: 20%;
+  border:2px solid grey;
+  margin: 20px;
+  height: 250px;
+
+}
 input {
   padding: 20px;
   margin-bottom: 30px;
@@ -26,4 +33,10 @@ input {
 .input-section{
   width:90%;
   margin: 0 auto;
+}
+
+button{
+  width: 15%;
+  padding :20px;
+
 }
