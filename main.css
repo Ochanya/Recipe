@@ -11,13 +11,13 @@ body{
   justify-content: center;
   margin-top: 20px;
 }
-.container div{
+/*.container div{
   width: 20%;
   border:2px solid grey;
   margin: 20px;
-  height: 250px;
+  height: 250px;*/
 
-}
+/*}*/
 .recipe-box{
   width: 20%;
   border:2px solid grey;
