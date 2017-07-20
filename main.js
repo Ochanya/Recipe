@@ -10,15 +10,37 @@ function fetchData(){
       return;
     }
       response.json().then(function(reponse){
+console.log(reponse.results);
 
-        response.results.forEach(function(result){
+        reponse.results.forEach(function(result){
           main.innerHTML+=`
+
           <div class="recipe-box">
-            <img src="${result.thumbnail}" alt="">
-            <a href="${result.href}"><h2>${result.title}</h2></a>
+
+            <a href="${result.href}"><img src="${result.thumbnail}" alt=""></a>
+            <div>
+            <h2>${result.title}</h2>
+            </div>
+
+          </div>
+          <div>
+          <h2>${result.title}</h2>
           </div>
         `;
+
+        console.log(main.innerHTML);
       })
+      ////>>>>AGAB
+
+      // var dv1=document.createElement('div');
+      // document.body.appendChild(dv1);
+      // dv1.style.border='1px dotted';
+      //
+
+      //////>>>>>>AGAB END
+
+
+
     })
 
   })

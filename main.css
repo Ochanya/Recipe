@@ -23,6 +23,14 @@ body{
   border:2px solid grey;
   margin: 20px;
   height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+.recipe-box div{
+  width: 100%;
+  height: 250px;
 
 }
 input {
