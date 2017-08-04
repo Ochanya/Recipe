@@ -30,14 +30,7 @@ function fetchData(){
 
         console.log(main.innerHTML);
       })
-      ////>>>>AGAB
 
-      // var dv1=document.createElement('div');
-      // document.body.appendChild(dv1);
-      // dv1.style.border='1px dotted';
-      //
-
-      //////>>>>>>AGAB END
 
 
 
