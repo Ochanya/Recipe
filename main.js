@@ -17,7 +17,7 @@ function fetchData(){
 
           <div class="recipe-box">
 
-            <a href="${result.href}"><img src="${result.thumbnail}" alt=""></a>
+            <a href="${result.href}"><img src="${result.thumbnail}" alt="picture of food item"></a>
             <div>
             <h2>${result.title}</h2>
             </div>
