@@ -10,7 +10,7 @@ function fetchData(){
       return;
     }
       response.json().then(function(reponse){
-console.log(reponse.results);
+       console.log(reponse.results);
 
         reponse.results.forEach(function(result){
           main.innerHTML+=`
